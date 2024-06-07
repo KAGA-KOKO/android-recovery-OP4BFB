@@ -16,8 +16,8 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/OPPO/OP4BFB
-LOCAL_PATH := device/OPPO/OP4BFB
+DEVICE_PATH := device/OPPO/CPH2083
+LOCAL_PATH := device/OPPO/CPH2083
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
