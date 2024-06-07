@@ -18,7 +18,7 @@
 
 ro.product.brand=OPPO
 ro.product.name=CPH2083
-ro.product.device=OP4BFB
+ro.product.device=CPH2083
 ro.build.product=CPH2083
 ro.treble.enabled=true
 ro.boot.avb_version=1.0
