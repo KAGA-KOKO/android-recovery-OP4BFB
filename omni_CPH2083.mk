@@ -24,7 +24,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier.
 PRODUCT_BRAND := OPPO
-PRODUCT_DEVICE := OP4BFB
+PRODUCT_DEVICE := CPH2083
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_MODEL := CPH2083
 PRODUCT_NAME := omni_CPH2083
