@@ -2,7 +2,7 @@
   {
     "remote":"omnirom",
     "repository": "android_vendor_omni",
-    "target_path": "vendor/omni/config",
+    "target_path": "vendor/omni",
     "revision":"android-9.0"
   }
 ]
