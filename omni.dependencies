@@ -1,8 +1,8 @@
 [
   {
-    "remote":"omnirom",
-    "repository": "android_vendor_omni",
-    "target_path": "vendor/omni",
+    "remote":"PitchBlackRecoveryProject",
+    "repository": "vendor_pb",
+    "target_path": "vendor/pb",
     "revision":"android-9.0"
   }
 ]
