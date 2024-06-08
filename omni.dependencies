@@ -1,8 +1,8 @@
 [
   {
     "remote":"SHRP",
-    "repository": "android_vendor_shrp",
-    "target_path": "vendor/shrp",
+    "repository": "android_vendor_twrp",
+    "target_path": "vendor/twrp",
     "revision":"android-9.0"
   }
 ]
