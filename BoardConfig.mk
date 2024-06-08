@@ -145,15 +145,13 @@ TARGET_USES_LOGD := true
 BOARD_AVB_ENABLE := true
 BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 
-# SHRP 
-SHRP_DEVICE_CODE := OP4BFB
-SHRP_PATH := device/oppo/OP4BFB
-SHRP_MAINTAINER := VIOLET-EVERGARDE
-SHRP_DEVICE_TYPE := A/B
-SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
-SHRP_FLASH := 0
-SHRP_REC_TYPE := Normal
-SHRP_INTERNAL := /sdcard
-SHRP_EXTERNAL := /external_sd
-SHRP_OTG := /usb_otg
-SHRP_DARK := true
+# exFAT FS Support
+TW_INCLUDE_FUSE_EXFAT := true
+
+# NTFS Support
+TW_INCLUDE_FUSE_NTFS := true
+
+# PBRP Build Flags
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_TORCH_PATH := "/sys/class/leds/flashlight"
+PB_TORCH_MAX_BRIGHTNESS := 2
