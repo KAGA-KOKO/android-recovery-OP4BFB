@@ -1,8 +1,8 @@
 [
   {
-    "remote":"SHRP",
-    "repository": "android_vendor_twrp",
-    "target_path": "vendor/twrp",
+    "remote":"PitchBlackRecoveryProject",
+    "repository": "android_bootable_recovery",
+    "target_path": "bootable/recovery",
     "revision":"android-9.0"
   }
 ]
