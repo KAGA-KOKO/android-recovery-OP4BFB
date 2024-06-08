@@ -2,7 +2,7 @@
   {
     "remote":"PitchBlackRecoveryProject",
     "repository": "android_bootable_recovery",
-    "target_path": "bootable/recovery",
+    "target_path": "vendor/recovery",
     "revision":"android-9.0"
   }
 ]
