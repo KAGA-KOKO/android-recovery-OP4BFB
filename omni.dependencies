@@ -1,0 +1,8 @@
+[
+  {
+    "remote":"omnirom",
+    "repository": "android_vendor_mtk_opensource_commonsys",
+    "target_path": "vendor/mtk/opensource/commonsys",
+    "revision":"android-9.0"
+  }
+]
