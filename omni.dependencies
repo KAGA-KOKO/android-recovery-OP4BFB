@@ -1,8 +1,8 @@
 [
   {
-    "remote":"omnirom",
-    "repository": "android_vendor_omni",
-    "target_path": "vendor/omni",
+    "remote":"SHRP",
+    "repository": "android_vendor_shrp",
+    "target_path": "vendor/shrp",
     "revision":"android-9.0"
   }
 ]
