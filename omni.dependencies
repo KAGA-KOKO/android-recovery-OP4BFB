@@ -3,6 +3,6 @@
     "remote":"PitchBlackRecoveryProject",
     "repository": "vendor_pb",
     "target_path": "vendor/pb",
-    "revision":"android-9.0"
+    "revision":"pb"
   }
 ]
