@@ -1,4 +1,4 @@
-TWRP Device Tree for OPPO A12
+Omni Device Tree for OPPO A12
 ===========================================
 
 The OPPO A12 is a budget range smartphone from Realme, announced in April 2019.
