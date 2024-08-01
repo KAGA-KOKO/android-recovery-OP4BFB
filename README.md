@@ -12,5 +12,5 @@ Omni Device Tree for OPPO A12
 
 **Not working**:
 
-1. Decryption (Format data to fix internal)
+1. Decryption (get fstab.mt6765 from rmx1941 and patch to vendor/etc after this format data and success )
 
