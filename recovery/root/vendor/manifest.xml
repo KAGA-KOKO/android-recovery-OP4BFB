@@ -221,6 +221,18 @@
         <fqname>@1.2::ISap/slot2</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.secure_element</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISecureElement</name>
+            <instance>SIM1</instance>
+            <instance>SIM2</instance>
+        </interface>
+        <fqname>@1.0::ISecureElement/SIM1</fqname>
+        <fqname>@1.0::ISecureElement/SIM2</fqname>
+    </hal>
+    <hal format="hidl">
         <name>android.hardware.sensors</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -291,6 +303,26 @@
         <fqname>@1.1::ISupplicant/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>interfaces.factoryAta</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFactoryAta</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IFactoryAta/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>interfaces.factoryInterface</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFactoryInterface</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IFactoryInterface/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.mediatek.hardware.atci</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -303,12 +335,12 @@
     <hal format="hidl">
         <name>vendor.mediatek.hardware.camera.bgservice</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>1.1</version>
         <interface>
             <name>IBGService</name>
             <instance>internal/0</instance>
         </interface>
-        <fqname>@1.0::IBGService/internal/0</fqname>
+        <fqname>@1.1::IBGService/internal/0</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.camera.camdump</name>
@@ -445,12 +477,12 @@
     <hal format="hidl">
         <name>vendor.mediatek.hardware.mms</name>
         <transport>hwbinder</transport>
-        <version>1.1</version>
+        <version>1.5</version>
         <interface>
             <name>IMms</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.1::IMms/default</fqname>
+        <fqname>@1.5::IMms/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.mtkcodecservice</name>
@@ -505,7 +537,7 @@
     <hal format="hidl">
         <name>vendor.mediatek.hardware.radio</name>
         <transport>hwbinder</transport>
-        <version>3.13</version>
+        <version>3.21</version>
         <interface>
             <name>IRadio</name>
             <instance>imsrild1</instance>
@@ -520,14 +552,14 @@
             <instance>slot1</instance>
             <instance>slot2</instance>
         </interface>
-        <fqname>@3.13::IRadio/imsrild1</fqname>
-        <fqname>@3.13::IRadio/imsrild2</fqname>
-        <fqname>@3.13::IRadio/se1</fqname>
-        <fqname>@3.13::IRadio/se2</fqname>
-        <fqname>@3.13::IRadio/slot1</fqname>
-        <fqname>@3.13::IRadio/slot2</fqname>
-        <fqname>@3.13::ISap/slot1</fqname>
-        <fqname>@3.13::ISap/slot2</fqname>
+        <fqname>@3.21::IRadio/imsrild1</fqname>
+        <fqname>@3.21::IRadio/imsrild2</fqname>
+        <fqname>@3.21::IRadio/se1</fqname>
+        <fqname>@3.21::IRadio/se2</fqname>
+        <fqname>@3.21::IRadio/slot1</fqname>
+        <fqname>@3.21::IRadio/slot2</fqname>
+        <fqname>@3.21::ISap/slot1</fqname>
+        <fqname>@3.21::ISap/slot2</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.videotelephony</name>
@@ -599,6 +631,16 @@
         </interface>
         <fqname>@1.0::IBiometricsFace/default</fqname>
     </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.oppo.hardware.biometrics.fingerprint</name>
+        <transport>hwbinder</transport>
+        <version>2.1</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@2.1::IBiometricsFingerprint/default</fqname>
+    </hal>
     <hal format="hidl">
         <name>vendor.oppo.hardware.biometrics.fingerprintpay</name>
         <transport>hwbinder</transport>
@@ -608,6 +650,16 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IFingerprintPay/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oppo.hardware.camera.engmode</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IEngmode</name>
+            <instance>internal/0</instance>
+        </interface>
+        <fqname>@1.0::IEngmode/internal/0</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.oppo.hardware.camera.slogan</name>
@@ -628,6 +680,26 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::ICryptoeng/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oppo.hardware.gift</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IGift</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IGift/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.oppo.hardware.hypnus</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IHypnusUtil</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IHypnusUtil/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.oppo.hardware.ktv</name>

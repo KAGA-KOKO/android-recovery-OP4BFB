@@ -17,6 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_OP4BFB.mk
-
-COMMON_LUNCH_CHOICES := omni_OP4BFB-eng
+	$(LOCAL_DIR)/omni_CPH2083.mk
