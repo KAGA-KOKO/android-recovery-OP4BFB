@@ -4,7 +4,8 @@
 /system_root	   ext4     /dev/block/platform/bootdevice/by-name/system	         flags=display="System";wipeingui;backup=0
 /system_image    emmc     /dev/block/by-name/system				                       flags=backup=1;flashimg=1
 /cache		       ext4     /dev/block/platform/bootdevice/by-name/cache
-/data		         ext4     /dev/block/platform/bootdevice/by-name/userdata        flags=fileencryption=ice:aes-256-xts
+/data		         f2fs     /dev/block/platform/bootdevice/by-name/userdata
+/data		         ext4     /dev/block/platform/bootdevice/by-name/userdata        flags=encryptable=ice:aes-256-xts
 /vendor          ext4     /dev/block/platform/bootdevice/by-name/vendor		       flags=backup=0;display="Vendor";wipeingui
 /vendor_image	   emmc     /dev/block/by-name/vendor				                       flags=backup=1;flashimg=1
 /persistent	     emmc     /dev/block/platform/bootdevice/by-name/frp
