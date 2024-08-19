@@ -21,6 +21,5 @@ ro.product.name=CPH2083
 ro.product.device=OP4BFB
 ro.build.product=CPH2083
 ro.treble.enabled=true
-ro.vndk.lite=true
 ro.boot.avb_version=1.0
 ro.boot.vbmeta.avb_version=1.0
