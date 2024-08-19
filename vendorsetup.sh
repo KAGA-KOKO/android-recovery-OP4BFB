@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_CPH2083-userdebug
-add_lunch_combo omni_CPH2083-eng
+add_lunch_combo pb_CPH2083-userdebug
+add_lunch_combo pb_CPH2083-eng

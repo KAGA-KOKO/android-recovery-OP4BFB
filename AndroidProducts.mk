@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_CPH2083.mk
+	$(LOCAL_DIR)/pb_CPH2083.mk

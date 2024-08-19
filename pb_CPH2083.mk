@@ -20,14 +20,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier.
 PRODUCT_BRAND := oppo
 PRODUCT_DEVICE := CPH2083
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_MODEL := CPH2083
-PRODUCT_NAME := omni_CPH2083
+PRODUCT_NAME := pb_CPH2083
 PRODUCT_RELEASE_NAME := OPPO A12
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
